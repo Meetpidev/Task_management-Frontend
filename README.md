@@ -188,17 +188,3 @@ Includes:
 - Integration tests for auth endpoints using Jest + Supertest + mongodb-memory-server
 
 ---
-
-## Deployment
-
-1. Deploy the backend (e.g. Render, Railway, or a VPS) with the environment variables set, including `ADMIN_EMAIL` and `ADMIN_PASSWORD`.
-2. Deploy the frontend (e.g. Vercel, Netlify) with `VITE_API_URL` pointing to your live backend URL.
-3. On first boot, the admin seed script creates the admin account automatically if it doesn't already exist.
-4. Log in at `/admin` using the admin credentials to verify the panel is working.
-
----
-
-## License
-
-MIT
-````
