@@ -45,8 +45,10 @@ npm test
 | `JWT_SECRET`       | Secret used to sign JWTs                 |
 | `JWT_EXPIRES_IN`   | Token expiry, e.g. `7d`                  |
 | `CLIENT_URL`       | Frontend origin, used for CORS           |
+| `ADMIN_NAME`       | Admin name used to seed the admin        |
 | `ADMIN_EMAIL`      | Email used to seed the admin account     |
 | `ADMIN_PASSWORD`   | Password used to seed the admin account  |
+| `NODE_ENV`         | development                              |
 
 ---
 
